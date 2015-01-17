@@ -1,7 +1,7 @@
-## Put comments here that give an overall description of what your
-## functions do
+## These functions demonstrate the usefulness of scoping in R
 
-## Write a short comment describing this function
+
+## This function creates a cache matrix
 
 makeCacheMatrix <- function(x = matrix()) {
   m<-NULL
@@ -18,7 +18,7 @@ makeCacheMatrix <- function(x = matrix()) {
 }
 
 
-## Write a short comment describing this function
+## This demonstrates the scoping 
 
 cacheSolve <- function(x=matrix(), ...) {
   m<-x$getinverse()
