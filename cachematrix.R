@@ -2,6 +2,10 @@
 
 
 ## This function creates a cache matrix
+# 1) set the value of the matrix
+# 2) get the value
+# 3) set the inverse
+# 4) get the inverse
 
 makeCacheMatrix <- function(x = matrix()) {
   m<-NULL
@@ -19,6 +23,8 @@ makeCacheMatrix <- function(x = matrix()) {
 
 
 ## This demonstrates the scoping 
+# 1) if the inverse is already avaiable, get it from cache
+# 2) if it is not avaiable, then calculate the cache
 
 cacheSolve <- function(x=matrix(), ...) {
   m<-x$getinverse()
